@@ -15,6 +15,11 @@ namespace VSfAB_Tutorial_01
 
             Variables variables = new Variables();
             variables.exercise1();
+
+            Decisions decisions = new Decisions();
+            decisions.readLine();
+            decisions.ifDecision();
+            decisions.ifDecisionRefactorized();
         }
     }
 }
