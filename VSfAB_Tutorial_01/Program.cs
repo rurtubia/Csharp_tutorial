@@ -20,6 +20,12 @@ namespace VSfAB_Tutorial_01
             decisions.readLine();
             decisions.ifDecision();
             decisions.ifDecisionRefactorized();
+
+            forIterations foriterations = new forIterations();
+            foriterations.forIterators();
+
+            Arrays arrays = new Arrays();
+            arrays.reverseArray();
         }
     }
 }
