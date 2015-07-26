@@ -11,6 +11,7 @@ namespace VSfAB_Tutorial_01
         public void methodOverloads() 
         {
             string myValue = superSecretFormula();
+            string myValue2 = superSecretFormula(" World");
             Console.WriteLine(myValue);
             Console.ReadLine();
         }
@@ -19,6 +20,11 @@ namespace VSfAB_Tutorial_01
         private string superSecretFormula()
         {
             return "Hello World";
+        }
+
+        private string superSecretFormula(string name)
+        {
+            return String.Format("Hello, {0}", name);
         }
     }
 }

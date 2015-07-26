@@ -26,6 +26,9 @@ namespace VSfAB_Tutorial_01
 
             Arrays arrays = new Arrays();
             arrays.reverseArray();
+
+            MethodOverloads methodOverloads = new MethodOverloads();
+            methodOverloads.methodOverloads();
         }
     }
 }
