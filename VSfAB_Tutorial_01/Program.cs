@@ -31,6 +31,8 @@ namespace VSfAB_Tutorial_01
             MethodOverloads methodOverloads = new MethodOverloads();
             methodOverloads.methodOverloads();
 
+            
+            
             StreamReader myReader = new StreamReader("Values.txt");
             string line = "";
 
@@ -41,10 +43,9 @@ namespace VSfAB_Tutorial_01
                 {
                     Console.WriteLine(line);
                 }
-
-                myReader.Close();
-                Console.ReadLine();
             }
+            myReader.Close();
+            Console.ReadLine();
         }
     }
 }
