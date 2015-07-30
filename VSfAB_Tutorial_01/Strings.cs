@@ -35,7 +35,27 @@ namespace VSfAB_Tutorial_01
 
             //Custom formats
             //the # sign is used 
+            string myString7 = string.Format("Phone Number: {0:(###) ###-####}", 1234567890);
 
+            //Concatenation
+            string myString8 = "";
+
+            for (int i = 0; i < 100; i++)
+            {
+                //Full version:
+                //myString8 = myString8 + "--" + i.ToString();
+
+                // += version:
+                myString8 += "--" + i.ToString();
+            }
+
+            //Using StringBuilder
+            StringBuilder myString9 = new StringBuilder();
+            for (int i = 0; i < 100; i++)
+            {
+                myString9.Append("--");
+                myString9.Append(i);
+            }
 
             Console.WriteLine(myString);
             Console.ReadLine();
