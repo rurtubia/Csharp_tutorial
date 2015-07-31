@@ -57,6 +57,7 @@ namespace VSfAB_Tutorial_01
                 myString9.Append(i);
             }
 
+
             Console.WriteLine(myString);
             Console.ReadLine();
         }
