@@ -56,8 +56,16 @@ namespace VSfAB_Tutorial_01
                 myString9.Append("--");
                 myString9.Append(i);
             }
+            Console.WriteLine(myString9.ToString());
+            
+            
+            //Using substring
+            string myString10 = "This is a longer string";
 
+            myString10 = myString10.Substring(5, 14);
+            Console.WriteLine(myString10);
 
+            
             Console.WriteLine(myString);
             Console.ReadLine();
         }
