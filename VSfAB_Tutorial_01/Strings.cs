@@ -65,8 +65,12 @@ namespace VSfAB_Tutorial_01
             myString10 = myString10.Substring(5, 14);
             Console.WriteLine(myString10);
 
+            //Using toUpper
+            myString10.ToUpper();
+            Console.WriteLine(myString10);
+
+            //
             
-            Console.WriteLine(myString);
             Console.ReadLine();
         }
     }
