@@ -66,14 +66,20 @@ namespace VSfAB_Tutorial_01
             Console.WriteLine(myString10);
 
             //Using toUpper
-            myString10.ToUpper();
+            myString10 = myString10.ToUpper();
             Console.WriteLine(myString10);
 
             //Using replace
-            myString10.Replace(" ", "_");
+            myString10 = myString10.Replace(" ", "_");
             Console.WriteLine(myString10);
 
-            
+            //Using Trim();
+            myString10 = "  The string has some blank spaces at the beginning and at the end  ";
+            myString10 = String.Format(
+                "Length before: {0} -- After: {1}", 
+                myString10.Length, 
+                myString10.Trim().Length);
+            Console.WriteLine(myString10);
 
             Console.ReadLine();
         }

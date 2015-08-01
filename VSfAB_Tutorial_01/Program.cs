@@ -46,6 +46,9 @@ namespace VSfAB_Tutorial_01
             }
             myReader.Close();
             Console.ReadLine();
+
+            Strings strings = new Strings();
+            strings.strings();
         }
     }
 }
