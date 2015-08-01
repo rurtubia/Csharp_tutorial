@@ -69,8 +69,12 @@ namespace VSfAB_Tutorial_01
             myString10.ToUpper();
             Console.WriteLine(myString10);
 
-            //
+            //Using replace
+            myString10.Replace(" ", "_");
+            Console.WriteLine(myString10);
+
             
+
             Console.ReadLine();
         }
     }
