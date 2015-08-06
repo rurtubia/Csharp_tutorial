@@ -49,6 +49,12 @@ namespace VSfAB_Tutorial_01
 
             Strings strings = new Strings();
             strings.strings();
+
+            Datetimes dt = new Datetimes();
+            dt.dateTimeToString();
+
+            Console.ReadLine();
         }
+        
     }
 }
