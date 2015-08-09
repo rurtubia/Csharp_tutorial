@@ -37,13 +37,17 @@ namespace VSfAB_Tutorial_01
             Console.WriteLine(myDateTyme.Minute);
             Console.WriteLine(myDateTyme.Hour);
             Console.WriteLine(myDateTyme.Day);
+            //Monday, Tuesday, etc.
             Console.WriteLine(myDateTyme.DayOfWeek);
+            //Correlative number.
             Console.WriteLine(myDateTyme.DayOfYear);
             Console.WriteLine(myDateTyme.TimeOfDay);
             Console.WriteLine(myDateTyme.Ticks);
             Console.WriteLine(myDateTyme.Month);
 
 
+            //
+            DateTime myBirthday = new DateTime(1985, 08, 28);
         }
     }
 }
