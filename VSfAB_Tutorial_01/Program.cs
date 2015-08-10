@@ -62,8 +62,31 @@ namespace VSfAB_Tutorial_01
             myNewCar.Color = "White";
             //Getting properties
             Console.WriteLine("{0},{1},{2}",myNewCar.Make, myNewCar.Model, myNewCar.Color);
+
+            double marketValueOfCar = determineMarketValue(myNewCar);
+
             Console.ReadLine();
+
+            Console.WriteLine("Car's value: {0:C}", myNewCar.determineMarketValue());
+
+            Console.ReadLine();
+
+            Car mySecondCar = new Car("Tesla", "Model T", 2014, "black");
+
+            //Static methods can be invoked without initializing the class:
+            Car.myMethod();
+
+
         }
+        
+            //Using code from a class
+            private static double determineMarketValue(Car _car)
+            {
+                double carValue = 100.0;
+                return carValue;
+            }
+
+        
         
     }
 }
