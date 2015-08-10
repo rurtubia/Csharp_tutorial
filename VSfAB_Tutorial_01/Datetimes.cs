@@ -45,9 +45,17 @@ namespace VSfAB_Tutorial_01
             Console.WriteLine(myDateTyme.Ticks);
             Console.WriteLine(myDateTyme.Month);
 
-
-            //
+            //Specifying a date
             DateTime myBirthday = new DateTime(1985, 08, 28);
+            Console.WriteLine(myBirthday.ToShortDateString());
+
+            //Parsing a date from a string
+            myBirthday = DateTime.Parse("08/28/1985");
+
+            //Comparing two different dates with TimeSpan:
+            TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+            Console.WriteLine(myAge.TotalDays);
+
         }
     }
 }
