@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays.cs" />
+    <Compile Include="Car.cs" />
     <Compile Include="Datetimes.cs" />
     <Compile Include="Decisions.cs" />
     <Compile Include="forIterations.cs" />

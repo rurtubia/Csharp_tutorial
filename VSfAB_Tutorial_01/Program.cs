@@ -54,6 +54,14 @@ namespace VSfAB_Tutorial_01
             dt.dateTimeToString();
 
 
+            Car myNewCar = new Car();
+            //Setting properties
+            myNewCar.Make = "Kia";
+            myNewCar.Model = "Picanto";
+            myNewCar.Year = 2014;
+            myNewCar.Color = "White";
+            //Getting properties
+            Console.WriteLine("{0},{1},{2}",myNewCar.Make, myNewCar.Model, myNewCar.Color);
             Console.ReadLine();
         }
         
